@@ -1,0 +1,38 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+}
+.card-box {
+  margin: 50px;
+  width: 450px;
+  padding: 15px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.para {
+  font-size: 16px;
+  color: rgb(104, 102, 102);
+}
+.icon {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.card-body {
+  margin-top: 10px;
+  display: flex;
+}
+.heading {
+  display: inline-block;
+  font-size: 21px;
+  margin-left: 5px;
+}

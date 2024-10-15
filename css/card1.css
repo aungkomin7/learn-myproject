@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+
+.main{
+
+}
+
+.box-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.card-box{
+    /* border: 1px solid black; */
+    margin: 50px;
+    width: 400px;
+    padding: 24px 16px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+.para{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(131, 126, 126);
+
+}
+
+.btn{
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    border-color: transparent;
+    background-color: palevioletred;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 100ms linear;
+}
+
+.btn:hover{
+    background-color: rgb(238, 119, 137);
+}

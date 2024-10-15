@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        background-color: beige;
+      }
+
+      .main {
+        /* border: 1px solid black; */
+        margin: 40px;
+        width: 250px;
+        padding: 15px;
+        border-radius: 10px 0 0 10px;
+        position: relative;
+        background-color: white;
+        
+      }
+
+      .main::before{
+        content: "";
+        width: 200px;
+        height: 135px;
+        background-image: url("https://media.istockphoto.com/id/1127245421/photo/woman-hands-praying-for-blessing-from-god-on-sunset-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=Fbysb-YHuALb_Jyi4Q8Lw2QEVIFa3WSaPsvneGr7Q_8=");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 0 10px 10px 0;
+        position: absolute;
+        right: -200px;
+        top: 0;
+      }
+
+      .box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40px;
+      }
+
+      .heading {
+        font-size: 20px;
+      }
+
+      i {
+        color: orange;
+        font-size: 12px;
+      }
+
+      .lasticon i {
+        color: black;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="heading">Constructive and destructive waves</h1>
+      <div class="box">
+        <div class="star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="lasticon">
+          <i class="fa-solid fa-house"></i>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
